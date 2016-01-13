@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		11C5F3CC1C335634002EC9E1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11C5F3CB1C335634002EC9E1 /* main.cpp */; };
+		11C5F3D31C39A322002EC9E1 /* factorial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11C5F3D21C39A322002EC9E1 /* factorial.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		11C5F3C81C335634002EC9E1 /* Turing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Turing; sourceTree = BUILT_PRODUCTS_DIR; };
 		11C5F3CB1C335634002EC9E1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		11C5F3D21C39A322002EC9E1 /* factorial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = factorial.cpp; path = Turing/factorial.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		11C5F3BF1C335634002EC9E1 = {
 			isa = PBXGroup;
 			children = (
+				11C5F3D21C39A322002EC9E1 /* factorial.cpp */,
 				11C5F3CA1C335634002EC9E1 /* Turing */,
 				11C5F3C91C335634002EC9E1 /* Products */,
 			);
@@ -119,6 +122,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11C5F3CC1C335634002EC9E1 /* main.cpp in Sources */,
+				11C5F3D31C39A322002EC9E1 /* factorial.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
